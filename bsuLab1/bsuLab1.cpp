@@ -5,17 +5,18 @@ using namespace std;
 int main()
 {
 	double x, e;
+	cout << "Enter x and epsilon" << endl;
 	cin >> x >> e;
-	double result = 1;
+	double ch = 1;
 	double member = 1;
+
 	for (int i = 1; fabs(member) >= e; i++)
 	{
 		member *= x * x;
 		member /= 2 * i * (2 * i - 1);
-		result += member;
+		ch = ch + member;
 	}
-	cout << result;
+	cout << ch;
 
 
-	return 0;
 }
