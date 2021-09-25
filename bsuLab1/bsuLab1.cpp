@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+
 	double x, e;
 	int k, commas;
 
@@ -31,6 +32,4 @@ int main()
 
 	cout << setprecision(commas) << ch;
 	
-
-
 }
