@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	//Вариант 12
 	
 	srand(time(NULL));
 	int size;
