@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#pragma warning(disable : 4996)
 using namespace std;
 
 void showVect(int rows, vector<vector<int>>& arr);			//функция выводит матрицу
