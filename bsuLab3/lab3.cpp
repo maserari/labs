@@ -86,7 +86,6 @@ void delRowsCols(int rows, vector<vector<int>>& arr)
 		if (count == rows)
 		{
 			arr.erase(arr.begin());
-			i = 0;
 		}
 		count = 0;
 	}
