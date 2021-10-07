@@ -2,9 +2,9 @@
 #include <vector>
 using namespace std;
 
-void showVect(int rows, vector<vector<int>>& arr);			//функция выводит матрицу
-void funcVect(int rows, int cols, vector<vector<int>>& arr);		//arr[i][j] = arr[j][i]
 void enterMatrix(int rows, int cols, vector<vector<int>>& arr);		//функция для ввода матрицы
+void funcVect(int rows, int cols, vector<vector<int>>& arr);	
+void showVect(int rows, vector<vector<int>>& arr);			//функция выводит матрицу
 void delRowsCols(int rows, vector<vector<int>>& arr);			//Уплотнить эту матрицу, удаляя из нее строки и столбцы, состоящие только из нулей.
 void zeros(int rows, vector<vector<int>>& arr);				//найти в ней номер первой из строк, содержащих хотя бы один ноль.
 
