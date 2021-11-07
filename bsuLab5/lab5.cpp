@@ -33,6 +33,7 @@ void FillVec(vector<string>& arr, ifstream& inf)
 		arr.push_back(st);
 	}
 	cout << endl;
+	
 	inf.close();
 }
 
