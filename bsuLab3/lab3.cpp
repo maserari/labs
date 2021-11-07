@@ -2,18 +2,14 @@
 #include <vector>
 using namespace std;
 
-void enterMatrix(int rows, int cols, vector<vector<int>>& arr);		//функция для ввода матрицы
+void enterMatrix(int rows, int cols, vector<vector<int>>& arr);		
 void funcVect(int rows, int cols, vector<vector<int>>& arr);	
-void showVect(int rows, vector<vector<int>>& arr);			//функция выводит матрицу
-void delRowsCols(int rows, vector<vector<int>>& arr);			//Уплотнить эту матрицу, удаляя из нее строки и столбцы, состоящие только из нулей.
-void zeros(int rows, vector<vector<int>>& arr);				//найти в ней номер первой из строк, содержащих хотя бы один ноль.
-
-
+void showVect(int rows, vector<vector<int>>& arr);			
+void delRowsCols(int rows, vector<vector<int>>& arr);			
+void zeros(int rows, vector<vector<int>>& arr);				
 
 int main()
 {
-	//Вариант 12
-	
 	int cols;
 	int rows;
 
