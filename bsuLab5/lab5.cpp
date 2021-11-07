@@ -4,7 +4,7 @@
 #include <fstream>
 using namespace std;
 
-void FillVec(vector<string>& arr, ifstream& inf);
+void fillVec(vector<string>& arr, ifstream& inf);
 void delWords(vector<string>& arr);
 void fillOutFile(vector<string>& arr, ofstream& outf);
 
@@ -20,7 +20,7 @@ int main()
 	fillOutFile(arr, outf);
 }
 
-void FillVec(vector<string>& arr, ifstream& inf)
+void fillVec(vector<string>& arr, ifstream& inf)
 {
 	if (!inf.is_open())
 	{
