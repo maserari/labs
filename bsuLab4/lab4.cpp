@@ -2,17 +2,13 @@
 #include <string>
 using namespace std;
 
-char* allocateMem(int size);                //функция для выделния памяти
-void enterString(char* str, int size);      //функция для ввода строки
-char* _strpbrk(char* str1, char* str2);     //Написать собственную реализацию стандартной функции strpbrk
-void funcB(char* str3);                     /*Строка состоит из слов, разделенных одним или несколькими пробелами.
-                                              Среди слов, состоящих только из цифр, найти слово, содержащее максимальное число единиц. 
-                                              Если таких слов больше одного, найти предпоследнее из них. */
+char* allocateMem(int size);               
+void enterString(char* str, int size);      
+char* _strpbrk(char* str1, char* str2);     
+void funcB(char* str3);                    
 
 int main()
 {
-    //Вариант 12
-    
     int size;
 
     cout << "Enter size of 1 string: ";
