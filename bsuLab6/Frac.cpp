@@ -96,10 +96,3 @@ void Frac::WriteLine()
 	cout << out.GetFracNum() << endl << "-" << endl << out.GetFracDen();
 }
 
-
-
-	
-
-
-
-
