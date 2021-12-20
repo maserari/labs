@@ -86,6 +86,7 @@ Frac Frac::Division(Frac& a, Frac& b)
 	num_ = a.numer * b.denom;
 	den_ = a.denom * b.numer;
 	Frac div(num_, den_);
+	Reduction();
 	return div;
 }
 
