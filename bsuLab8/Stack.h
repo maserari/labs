@@ -11,7 +11,6 @@ private:
 public:
     Stack(int size)
     {
-
         top = -1;
         this->size = size;
         arr = new int[size];
